@@ -1,10 +1,21 @@
 .characterEditor {
   padding-top: 128px;
   padding-bottom: 64px;
+
+  &::before {
+    content: "";
+    height: 40vh;
+    background-color: hsl(195deg, 20%, 86%);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
 }
 
 .maxWidthWrapper {
   max-width: 1024px;
+  position: relative;
 }
 
 .header {
